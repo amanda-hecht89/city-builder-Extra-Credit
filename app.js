@@ -32,10 +32,11 @@ sloganButton.addEventListener('click', () => {
     displayCatchphrase();
 });
 
-//function displayCatchphrase() {
-sloganEl.textContent = '';
-for (let phrase of comment) {
-    const comment = document.createElement('div');
-    comment.textContent = phrase;
-    sloganEl.append(comment);
+function displayCatchphrase() {
+    sloganEl.textContent = '';
+    for (let phrase of comment) {
+        const comment = document.createElement('div');
+        comment.textContent = phrase;
+        sloganEl.append(comment);
+    }
 }
