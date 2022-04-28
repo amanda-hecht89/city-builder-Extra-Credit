@@ -67,17 +67,27 @@ h2 {
     font-weight: bold;
 }
 #fun {
-    display:block
+    display:block;
+    height: 200px;
+    width: 200px;
+}
+#container {
+    display: flex;
+    flex-direction: row;
 }
 
 
 #outing {
     background-image: url('../assets/hikething.png');
+
 }
 
-#seasons {
+#season {
     background-image: url('../assets/summerseason.png');
+    height: 200px;
+    width: 200px;
 }
+
 
 .gutter-right {
     margin-right: 20px;
