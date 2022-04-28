@@ -1,8 +1,8 @@
 // import functions and grab DOM elements
-const FunDrop = document.getElementById('fundrop');
-const SeaDrop = document.getElementById('seadrop');
-const Fun = document.getElementById('')
-const Sea = document.getElementById('');
+const funDrop = document.getElementById('fundrop');
+const seaDrop = document.getElementById('seadrop');
+const fun = document.getElementById('fun');
+const sea = document.getElementById('season');
 
 // let state
 
@@ -10,12 +10,14 @@ const Sea = document.getElementById('');
   // get user input
   // use user input to update state 
   // update DOM to reflect the new state
-  FunDrop.addEventListener('change', () => {
-    console.log('changing select', FunDrop.value);
-    Fun.style.backgroundImage = `url('../assets/${FunDrop.value}.png')`;
+funDrop.addEventListener('change', () => {
+    console.log('changing select', funDrop.value);
+    console.log(fun);
+    fun.style.backgroundImage = `url('./assets/${funDrop.value}.png')`;
+});
 
 
-
-  SeaDrop.addEventListener('change', () => {
-      console.log('changing select', SeaDrop.value);
-      Sea.style.backgroundImage = `url('../assets/${SeaDrop.value}.png')`; 
+seaDrop.addEventListener('change', () => {
+    console.log('changing select', seaDrop.value);
+    sea.style.backgroundImage = `url("./assets/${seaDrop.value}.png")`; 
+});

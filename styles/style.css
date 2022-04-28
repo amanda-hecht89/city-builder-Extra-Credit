@@ -66,6 +66,18 @@ h2 {
     font-size: 1.8rem;
     font-weight: bold;
 }
+#fun {
+    display:block
+}
+
+
+#outing {
+    background-image: url('../assets/hikething.png');
+}
+
+#seasons {
+    background-image: url('../assets/summerseason.png');
+}
 
 .gutter-right {
     margin-right: 20px;
