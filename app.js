@@ -3,6 +3,7 @@ const funDrop = document.getElementById('fundrop');
 const seaDrop = document.getElementById('seadrop');
 const fun = document.getElementById('fun');
 const sea = document.getElementById('season');
+const sloganEl = document.getElementById('slogan');
 const sloganInput = document.getElementById('slogan-input');
 const sloganButton = document.getElementById('slogan-button');
 
@@ -28,5 +29,13 @@ seaDrop.addEventListener('change', () => {
 sloganButton.addEventListener('click', () => {
     comment.push(sloganInput.value);
     sloganInput.value = '';
-    displayCatchphrases();
+    displayCatchphrase();
 });
+
+function displayCatchphrase() {
+  sloganEl.textContent = '';
+  for (let phrase of phrases) {
+      const comment = document.createElement('div');
+      list.textContent = phrase;
+      sloganEl.append(comment);
+  };
