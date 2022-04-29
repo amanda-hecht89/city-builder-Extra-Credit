@@ -38,6 +38,10 @@ Winter icon by Icons8
 Summer icon by Icons8
 Spring icon by Icons8
 Fallen Leaf icon by Icons8
+Hamburger icon by Icons8
+Salad icon by Icons8
+Pet icon by Icons8
+Gluten Free icon by Icons8
 
 Additional considerations:
 - Ask: which of your HTML elements need to be hard coded, and which need to be dynamically generated?
