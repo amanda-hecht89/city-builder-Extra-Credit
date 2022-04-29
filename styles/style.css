@@ -79,11 +79,18 @@ h2 {
 
 #outing {
     background-image: url('../assets/hikething.png');
-
+    height: 200px;
+    width: 200px;
 }
 
 #season {
     background-image: url('../assets/summerseason.png');
+    height: 200px;
+    width: 200px;
+}
+
+#yummy {
+    background-image: url('../assets/hamburgerfood.png');
     height: 200px;
     width: 200px;
 }
