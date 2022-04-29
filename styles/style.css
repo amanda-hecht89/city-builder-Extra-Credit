@@ -76,21 +76,12 @@ h2 {
     flex-direction: row;
 }
 
-
-#outing {
-    background-image: url('./assets/hikething.png');
-    height: 200px;
-    width: 200px;
-}
-
 #season {
-    background-image: url('./assets/summerseason.png');
     height: 200px;
     width: 200px;
 }
 
-#yummy {
-    background-image: url('./assets/hamburgerfood.png');
+#foodie {
     height: 200px;
     width: 200px;
 }

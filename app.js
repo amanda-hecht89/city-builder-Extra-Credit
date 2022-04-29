@@ -24,7 +24,7 @@ funDrop.addEventListener('change', () => {
 
 seaDrop.addEventListener('change', () => {
     console.log('changing select', seaDrop.value);
-    sea.style.backgroundImage = `url("./assets/${seaDrop.value}.png")`; 
+    sea.style.backgroundImage = `url('./assets/${seaDrop.value}.png')`; 
 });
 
 foodDrop.addEventListener('change', () => {
