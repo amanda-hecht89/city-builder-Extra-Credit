@@ -66,6 +66,26 @@ h2 {
     font-size: 1.8rem;
     font-weight: bold;
 }
+#fun {
+    display:block;
+    height: 200px;
+    width: 200px;
+}
+#container {
+    display: flex;
+    flex-direction: row;
+}
+
+#season {
+    height: 200px;
+    width: 200px;
+}
+
+#foodie {
+    height: 200px;
+    width: 200px;
+}
+
 
 .gutter-right {
     margin-right: 20px;
